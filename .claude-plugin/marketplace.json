@@ -1,0 +1,22 @@
+{
+  "name": "controlled-mp",
+  "owner": {
+    "name": "Toni Wang",
+    "email": "hua.wang.of@gmail.com"
+  },
+  "description": "Marketplace for controlled-mp plugins",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "npv-portfolio-valuation",
+      "source": "./",
+      "description": "Calculate NPV / DCF valuations for one or more portfolio companies from 10-K/10-Q financial data provided as a CSV.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Toni Wang",
+        "email": "hua.wang.of@gmail.com"
+      },
+      "keywords": ["finance", "valuation", "npv", "dcf", "portfolio"]
+    }
+  ]
+}

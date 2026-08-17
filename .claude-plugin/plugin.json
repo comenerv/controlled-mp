@@ -1,0 +1,11 @@
+{
+  "name": "npv-portfolio-valuation",
+  "displayName": "NPV Portfolio Valuation",
+  "version": "1.0.0",
+  "description": "Calculate NPV / DCF valuations for one or more portfolio companies from 10-K/10-Q financial data provided as a CSV.",
+  "author": {
+    "name": "Toni Wang",
+    "email": "hua.wang.of@gmail.com"
+  },
+  "keywords": ["finance", "valuation", "npv", "dcf", "portfolio"]
+}
