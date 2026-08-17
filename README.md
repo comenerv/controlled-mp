@@ -2,6 +2,8 @@
 
 A [Claude Code](https://claude.com/product/claude-code) plugin marketplace — a curated set of installable plugins that extend Claude Code with domain-specific skills.
 
+**[→ Browse the marketplace page](https://comenerv.github.io/controlled-mp/)**
+
 ## What is this?
 
 This repo is both a **marketplace** (`.claude-plugin/marketplace.json`, which lists available plugins) and, for now, a **single plugin** (`.claude-plugin/plugin.json`) bundling one skill. As more plugins are added, each will live in its own subdirectory under `plugins/` and get its own entry in the marketplace listing.
@@ -14,8 +16,6 @@ Add this marketplace to Claude Code, then install whichever plugin you want from
 /plugin marketplace add comenerv/controlled-mp
 /plugin install npv-portfolio-valuation@controlled-mp
 ```
-
-This is a **private** repo, so you'll need GitHub access to `comenerv/controlled-mp` (and to already be authenticated with `gh`/git) for the add step to succeed.
 
 To pick up updates after the marketplace has changed:
 
